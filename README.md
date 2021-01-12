@@ -2,4 +2,4 @@
 
 Common library for Go apps.
 
-- [Windows Explorer Registry Utils](windows/registry/explorer/README.md)
+- [Windows Explorer Utils](windows/registry/README.md)

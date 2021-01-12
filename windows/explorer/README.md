@@ -1,11 +1,11 @@
-# Windows Explorer Registry Utils
+# Windows Explorer Utils
 
 Package `explorer` provides access to the Windows Explorer registry.
 
 ## Installation
 
 ```shell
-go get -u github.com/martinveverka/go/windows/registry/explorer
+go get -u github.com/martinveverka/go/windows/explorer
 ```
 
 ## Quickstart
@@ -14,7 +14,7 @@ Here is a simple example of getting a current user Pictures folder.
 
 ```go
 import (
-	"github.com/martinveverka/go/windows/registry/explorer"
+	"github.com/martinveverka/go/windows/explorer"
 )
 
 path, err := explorer.GetUserShellFolder(explorer.MyPictures)
